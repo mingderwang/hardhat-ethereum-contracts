@@ -28,13 +28,17 @@ const config: HardhatUserConfig = {
       url: node_url('rinkeby'),
       accounts: accounts('rinkeby'),
     },
+    ropsten: {
+      url: node_url('ropsten'),
+      accounts: accounts('ropsten'),
+    },
     kovan: {
       url: node_url('kovan'),
       accounts: accounts('kovan'),
     },
-    staging: {
-      url: node_url('kovan'),
-      accounts: accounts('kovan'),
+    goerli: {
+      url: node_url('goerli'),
+      accounts: accounts('goerli'),
     },
   },
   paths: {
